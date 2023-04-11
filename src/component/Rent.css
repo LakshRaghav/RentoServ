@@ -1,0 +1,247 @@
+body
+{
+    box-sizing: border-box;
+    border: 0%;
+}
+.dspl_flx
+{
+    display: flex;
+}
+.jcc
+{
+    justify-content: center;
+}
+.jce
+{
+    justify-content: end;
+}
+.tac
+{
+    text-align: center;
+}
+.tae
+{
+    text-align: end;
+}
+.dib
+{
+    display: inline-block;
+}
+.wi1
+{
+    width: 10%;
+}   
+.wi2
+{
+    width: 20%;
+}   
+.wi3
+{
+    width: 30%;
+}   
+.wi4
+{
+    width: 40%;
+}   
+.wi48
+{
+    width: 48%;    
+}
+.wi5
+{
+    width: 50%;
+}   
+.wi52
+{
+    width: 52%;
+}
+.wi6
+{
+    width: 60%;
+}   
+.wi7
+{
+    width: 70%;
+}   
+.wi8
+{
+    width: 80%;
+}   
+.wi85
+{
+    width: 85%;
+}
+.wi9
+{
+    width: 90%;
+}  
+.wi95
+{
+    width: 95%;
+} 
+.wi10
+{
+    width: 100%;
+}   
+.hdr_clr
+{
+    background-color: #000;
+}
+.logo1
+{
+    height: 8vh;
+    margin: 5px 0px 5px 0px;
+    background-image: url("../../public/logo2.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 17%;
+}
+.r_lnk
+{
+    color: #fff;
+    text-decoration: none;
+    line-height: 8vh;
+    font-size: 18px;
+    margin: 0% 2% 0% 2%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.r_lnk:hover
+{
+    color: rgb(30, 255, 169);
+}
+.rent_back
+{
+    background-image: url("../../public/rent_back.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 105vh;
+}
+.rent_form1
+{
+    background-color: rgba(252, 213, 128, 0.842);
+    height: 70vh;
+    margin: 10% 0% 0% 3%;
+    border-radius: 10px;
+    box-shadow: 10px 5px 30px 5px rgba(8, 8, 8, 0.945);
+}
+.rent_btn
+{
+    padding: 2% 7% 2% 7%;
+    margin-left: 29%;
+    margin-top: 7%;
+    background-color: rgb(94, 53, 0);
+    border: none;
+    border-radius: 4px;
+}
+.rent_btn:hover
+{
+    background-color: rgb(255, 236, 127);
+    color: #000;
+}
+
+.modl
+{
+    width: 100%;
+    background-color: rgba(5, 5, 5, 0.479);
+}
+.crossbtnn{
+    position: absolute;
+    top: 0;
+    right:0;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+.bbtm
+{
+    border: none;
+    margin: 2% 0% 0% 0%;
+    padding: 0;
+}
+.modl_title
+{
+    width: 100%;
+    text-align: left;
+}
+.modl_rcpt
+{
+    font-size: 25px;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+.modl_logo
+{
+    background-image: url("../../public/logo3.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 29%;
+    height: 6vh;
+    margin-left: 2%;
+    border-bottom: 1px solid #000;
+}
+.Frm
+{
+    padding: 0%;
+    margin: 0%;
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+}
+.frm1
+{
+    padding: 0%;
+    margin: 0%;
+    font-size: 11px;
+}
+.rcpt
+{
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+}
+.gst
+{
+    font-size: 12px;
+}
+.trms
+{
+    font-size: 11px;
+    padding: 0;
+    margin: 0;
+}
+.trms1
+{
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+}
+.imgag
+{
+    width: 100%;
+    height: 15vh;
+}
+.crtxt
+{
+    margin-left: 2%;
+}
+.date_fnt
+{
+    font-size: 11px;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+.modalpaydsn
+{
+    border-radius: 10px;
+    font-size: 15px;
+    color: #fff;
+    background-color: rgba(0, 196, 137, 0.87);
+    padding: 5px 15px 5px 15px;
+    border: none;
+    outline: none;
+}
+.modalpaydsn:hover{
+    background-color: rgba(0, 247, 255, 0.767);
+}

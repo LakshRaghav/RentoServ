@@ -1,0 +1,47 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "first_name": "lakshay",
+      "Email": "lakshay15@gmail.com",
+      "Address": "h-2/147E,Mahavir Enclave",
+      "Password": "lakshay",
+      "id": 2
+    },
+    {
+      "first_name": "Raghav",
+      "Email": "raghavraghav15@gmail.com",
+      "Address": "h-2/147 E Mahavir Enclave , New Delhi-110045",
+      "Password": "raghav",
+      "id": 3
+    },
+    {
+      "first_name": "kartik",
+      "Email": "kartik15@gmail.com",
+      "Address": "h-2/147 E Mahavir Enclave , New Delhi-110045",
+      "Password": "kartik",
+      "id": 4
+    },
+    {
+      "first_name": "akash",
+      "Email": "akash12@gmail.com",
+      "Address": "sdasddaf",
+      "Password": "1234",
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

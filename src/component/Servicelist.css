@@ -1,0 +1,262 @@
+body {
+    box-sizing: border-box;
+    border: 0%;
+}
+
+.dspl_flx {
+    display: flex;
+}
+
+.flxgr {
+    flex-wrap: wrap;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.tac {
+    text-align: center;
+}
+
+.tae {
+    text-align: end;
+}
+
+.dib {
+    display: inline-block;
+}
+
+.wi1 {
+    width: 10%;
+}
+
+.wi2 {
+    width: 20%;
+}
+
+.wi25 {
+    width: 25%;
+}
+
+.wi3 {
+    width: 30%;
+}
+
+.wi4 {
+    width: 40%;
+}
+
+.wi48 {
+    width: 48%;
+}
+
+.wi5 {
+    width: 50%;
+}
+
+.wi52 {
+    width: 52%;
+}
+
+.wi6 {
+    width: 60%;
+}
+
+.wi7 {
+    width: 70%;
+}
+
+.wi75 {
+    width: 75%;
+}
+
+.wi8 {
+    width: 80%;
+}
+
+.wi85 {
+    width: 85%;
+}
+
+.wi9 {
+    width: 90%;
+}
+
+.wi95 {
+    width: 95%;
+}
+
+.wi10 {
+    width: 100%;
+}
+
+.crlst_backk {
+    background-image: url("../../public/serv.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 91vh;
+}
+
+.carlst_form {
+    position: relative;
+}
+
+.carfldrp {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 25%;
+}
+
+.carhddrp {
+    background-color: rgba(255, 255, 255, 0.685);
+    width: 500px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    height: 7vh;
+    text-align: left;
+    font-size: 18px;
+    color: rgb(3, 3, 3);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.carhddrp::after {
+    position: absolute;
+    right: 0;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+.cardrpdwn {
+    width: 500px;
+    height: 114px;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid #000;
+}
+
+.drpdwn_txt {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+.fndcarr {
+    padding: 1% 20% 1% 20%;
+    height: 6vh;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(74, 253, 163, 0.781);
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0%;
+    margin-bottom: 10%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.fndcarr:hover {
+    background-color: rgba(5, 255, 117, 0.623);
+}
+
+
+
+.serv_box {
+    background-image: url("../../public/serv_bac.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 91vh;
+}
+
+.form_box {
+    border-radius: 8px;
+    margin: 4% 0% 0% 0%;
+    height: 74vh;
+    background-color: rgba(109, 109, 109, 0.753);
+}
+
+.brand {
+    font-size: 21px;
+    margin-top: 1%;
+    margin-left: 20%;
+    font-weight: bold;
+    color: #fff;
+}
+
+.imaggg {
+    height: 25vh;
+    width: 100%;
+}
+
+.srv_butto {
+    padding: 1% 6% 1% 6%;
+    background-color: rgba(42, 192, 122, 0.856);
+    border: 1px solid rgba(42, 192, 122, 0.856);
+    border-radius: 6px;
+    margin-left: 35%;
+    margin-top: 4%;
+}
+
+.srv_butto:hover {
+    background-color: rgba(7, 129, 72, 0.856);
+    border: 1px solid rgba(42, 192, 122, 0.856);
+}
+
+.dropdwn {
+    text-align: left;
+    margin-left: 20%;
+    position: relative;
+    width: 60%;
+}
+
+.dropdwn_title {
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    color: rgb(92, 0, 0);
+    border: 1px solid rgb(92, 0, 0);
+    background-color: #fff;
+    margin-top: 1%;
+}
+
+.dropdwn_title::after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 4%;
+    margin-right: 1%;
+}
+
+.dropdwn_title:hover {
+    background-color: rgb(219, 219, 219);
+    color: rgb(92, 0, 0);
+    border: 1px solid rgb(92, 0, 0);
+
+}
+
+.dropdwn_menu {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.87);
+}
+
+.dropdwn_mtxt {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 16px;
+}
+
+.srvdate {
+    margin-left: 20%;
+    background-color: #fff;
+    border-radius: 4px;
+    color: rgb(218, 16, 16);
+    margin-top: 10px;
+}
+
+.fnttt {
+    font-size: 11px;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}

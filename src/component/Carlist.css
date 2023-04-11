@@ -1,0 +1,334 @@
+body {
+    box-sizing: border-box;
+    border: 0%;
+}
+
+.dspl_flx {
+    display: flex;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.tac {
+    text-align: center;
+}
+
+.tae {
+    text-align: end;
+}
+
+.dib {
+    display: inline-block;
+}
+
+.wi1 {
+    width: 10%;
+}
+
+.wi2 {
+    width: 20%;
+}
+
+.wi25 {
+    width: 25%;
+}
+
+.wi3 {
+    width: 30%;
+}
+
+.wi4 {
+    width: 40%;
+}
+
+.wi48 {
+    width: 48%;
+}
+
+.wi5 {
+    width: 50%;
+}
+
+.wi52 {
+    width: 52%;
+}
+
+.wi6 {
+    width: 60%;
+}
+
+.wi7 {
+    width: 70%;
+}
+
+.wi75 {
+    width: 75%;
+}
+
+.wi8 {
+    width: 80%;
+}
+
+.wi85 {
+    width: 85%;
+}
+
+.wi9 {
+    width: 90%;
+}
+
+.wi95 {
+    width: 95%;
+}
+
+.wi10 {
+    width: 100%;
+}
+
+.crlst_back {
+    background-image: url("../../public/locate.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 91vh;
+}
+
+.carlst_form {
+    position: relative;
+}
+
+.carfldrp {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 25%;
+}
+
+.carhddrp {
+    background-color: rgba(255, 255, 255, 0.562);
+    width: 500px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    height: 7vh;
+    text-align: left;
+    font-size: 18px;
+    color: rgb(102, 102, 102);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.carhddrp::after {
+    position: absolute;
+    right: 0;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+.cardrpdwn {
+    width: 500px;
+    height: 114px;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid #000;
+}
+
+.drpdwn_txt {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+.fndcar {
+    padding: 1% 20% 1% 20%;
+    height: 6vh;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(253, 220, 74, 0.781);
+    color: rgb(97, 55, 0);
+    position: absolute;
+    bottom: 0%;
+    margin-bottom: 10%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.fndcar:hover {
+    background-color: rgba(253, 220, 74, 0.445);
+}
+
+.imggg {
+    height: 25vh;
+    width: 100%;
+    border: none;
+}
+
+.img {
+    width: 100%;
+    height: 25vh;
+}
+
+.psnrlt {
+    position: relative;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 6px;
+    padding-bottom: 0%;
+}
+
+.bookbtn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 1%;
+    margin-right: 4%;
+    padding: 1% 4% 1% 4%;
+    border: 1px solid rgb(0, 190, 95);
+    border-radius: 4px;
+    background-color: #fff;
+    color: rgb(0, 190, 95);
+}
+
+.bookbtn:hover {
+    background-color: rgb(0, 190, 95);
+    color: #fff;
+}
+
+.psnrlt:hover .bookbtn {
+    background-color: rgb(0, 190, 95);
+    color: #fff;
+}
+
+.car_model {
+    padding: 0%;
+    margin: 1% 0% 0% 2%;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.car_type {
+    padding: 0%;
+    margin: 1% 0% 0% 2%;
+    font-size: 13px;
+    color: rgb(161, 161, 161);
+}
+
+.bst {
+    font-weight: bold;
+}
+
+.car_type1 {
+    padding: 0%;
+    margin: 3px 0px 0px 0px;
+    font-size: 13px;
+    color: rgb(161, 161, 161);
+}
+
+.car_ratings {
+    padding: 0%;
+    margin: 1% 0% 0% 2%;
+    font-size: 13px;
+}
+
+.car_ratings1 {
+    padding: 0%;
+    margin: 3px 0px 0px 0px;
+    font-size: 13px;
+}
+
+.car_avlblty {
+    padding: 0%;
+    margin: 4% 0% 0% 2%;
+    font-size: 15px;
+}
+
+.price {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 22px;
+    margin: 2% 9% 0% 0%;
+}
+.pricee
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: rgb(252, 0, 0);
+    font-size: 22px;
+    margin: 1% 7% 0% 0%;
+}
+.clr {
+    background-color: rgb(76, 230, 158);
+    border: none;
+}
+
+.clr:hover {
+    background-color: rgb(39, 163, 105);
+}
+
+.lftdv {
+    height: 80vh;
+    border-radius: 0px;
+    height: 100%;
+    margin-right: 2%;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.ctyy {
+    font-size: 20px;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(88, 88, 88);
+    margin-left: 2%;
+}
+
+.crddd {
+    border: 1px solid rgb(97, 97, 97);
+    border-radius: 6px;
+    position: relative;
+    height: 50vh;
+    padding-left: 2%;
+    padding-bottom: 1%;
+}
+
+.psnnn:hover .bookbtnn {
+    background-color: rgb(0, 190, 95);
+    color: #fff;
+}
+
+.bookbtnn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 3%;
+    margin-right: 5%;
+    padding: 1% 4% 1% 4%;
+    border: 1px solid rgb(0, 190, 95);
+    border-radius: 5px;
+    background-color: #fff;
+    color: rgb(0, 190, 95);
+}
+
+.bookbtnn:hover {
+    background-color: rgb(0, 190, 95);
+    color: #fff;
+}
+.offer
+{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 2% 5% 2% 5%;
+    width: 95%;
+    border-radius: 0px;
+    background-color: orange;
+    margin: 0%;
+    /* border: 1px solid rgb(172, 172, 172); */
+}
+.offericon
+{
+    color: red;
+    font-size: 25px;
+}
